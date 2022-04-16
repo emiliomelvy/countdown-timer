@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap);
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  color: rgb(182, 69, 65);
+  font-size: 4rem;
+}
+.container {
+  color: rgb(138, 214, 233);
+  font-size: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(countdown.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+}
+
+.container p {
+  text-align: center;
+  font-weight: bold;
+}
+.container .days,
+.container .hours,
+.container .minutes,
+.container .seconds {
+  margin: 20px;
+}
